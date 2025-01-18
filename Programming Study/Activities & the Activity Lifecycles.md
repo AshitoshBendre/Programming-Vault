@@ -112,3 +112,28 @@ The activity lifecycle can be visualized as a state diagram:
 - **Restarted/Destroyed States:**
     - **`onRestart()` -> `onStart()` (Restarted)**
     - **`onDestroy()` (Destroyed)**
+
+
+### **Additional Topics to Learn (This is created by Ai)**
+
+1. **Configuration Changes**
+    
+    - Handle changes like screen rotation by overriding `onConfigurationChanged()` or using a `ViewModel` for data persistence.
+    - Learn about saving and restoring the activity state with `onSaveInstanceState()` and `onRestoreInstanceState()`.
+2. **Multiple Activities**
+    
+    - An app can have multiple activities for different screens (e.g., LoginActivity, SettingsActivity).
+    - Use **Intents** to navigate between activities.
+3. **Fragments**
+    
+    - Learn about fragments, which allow modular UI and reusable components within activities.
+4. **ViewModel and Lifecycle Observers**
+    
+    - Use `ViewModel` and `LiveData` to persist data across configuration changes.
+    - Implement `LifecycleObserver` for better lifecycle management.
+5. **Launch Modes and Task Management**
+    
+    - Understand launch modes (`standard`, `singleTop`, `singleTask`, `singleInstance`) and their effects on activity stack behavior.
+6. **Background and Foreground**
+    
+    - Learn how the lifecycle interacts with Android's **App Lifecycle** (foreground and background states).
